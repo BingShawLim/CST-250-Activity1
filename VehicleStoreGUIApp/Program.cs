@@ -1,0 +1,25 @@
+/*
+ * Bing [Last Name]
+ * CST-250
+ * 10/25/2026
+ * Vehicle Store GUI App
+ * Activity 1
+ */
+
+namespace VehicleStoreGUIApp
+{
+    internal static class Program
+    {
+        /// <summary>
+        ///  The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
+        {
+            // To customize application configuration such as set high DPI settings or default font,
+            // see https://aka.ms/applicationconfiguration.
+            ApplicationConfiguration.Initialize();
+            Application.Run(new FrmVehicleStore());
+        }
+    }
+}
